@@ -1,0 +1,24 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="cust" class="ly.spring.first.dtos.Customer">
+		<property name="id" value="2"></property>
+		<property name="fullName" value=" Xyz Abc"></property>
+		<property name="email" value="abc@xyz.com"></property>
+		<property name="phone" value="10000000"></property>
+		<property name="address" ref="address"></property>
+
+
+	</bean>
+
+	<bean id="address" class="ly.spring.first.dtos.Address">
+		<property name="addressLine1" value="8132 Heathertan Ln"></property>
+		<property name="addressLine2" value="Apt-101"></property>
+		<property name="city" value="Vienna"></property>
+		<property name="state" value="Virginia"></property>
+		<property name="zipcode" value="22180"></property>
+
+	</bean>
+</beans>

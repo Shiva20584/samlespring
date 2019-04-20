@@ -5,9 +5,8 @@ public class Customer {
 	private String fullName;
 	private String email;
 	private String phone;
-	
+
 	private Address address;
-	
 
 	public Address getAddress() {
 		return address;
@@ -55,7 +54,4 @@ public class Customer {
 				+ address + "]";
 	}
 
-	
-	}
-
-
+}
