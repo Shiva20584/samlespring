@@ -9,7 +9,8 @@ public class MainApplicationAdd {
 		Address ad=new Address();
 		ad.setAddressLine1("512 Oscar Loop");
 		ad.setAddressLine2("APT-104H");
-		ad.setCity("Newport News Kingstone");
+		ad.setCity("Newport News ");
+		
 		
 		ad.setState("Virginia");
 		ad.setZipcode(23606);
